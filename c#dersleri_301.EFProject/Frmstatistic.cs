@@ -32,7 +32,7 @@ namespace c_dersleri_301.EFProject
             var dta = db.Location.Average(x => x.Price);
             lblAvgLocationPrice.Text = dta?.ToString("F2");
             
-            //burda kaldım... deneme    burada
+            
 
 
         }
