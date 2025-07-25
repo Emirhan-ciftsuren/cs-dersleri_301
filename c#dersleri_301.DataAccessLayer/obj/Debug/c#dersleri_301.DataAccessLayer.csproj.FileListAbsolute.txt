@@ -1,0 +1,17 @@
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.DataAccessLayer\bin\Debug\c#dersleri_301.DataAccessLayer.dll.config
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.DataAccessLayer\bin\Debug\c#dersleri_301.DataAccessLayer.dll
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.DataAccessLayer\bin\Debug\c#dersleri_301.DataAccessLayer.pdb
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.DataAccessLayer\bin\Debug\c#dersleri_301.EntityLayer.dll
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.DataAccessLayer\bin\Debug\c#dersleri_301.EntityLayer.pdb
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.DataAccessLayer\bin\Debug\c#dersleri_301.EntityLayer.dll.config
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.DataAccessLayer\obj\Debug\c#dersleri_301.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.DataAccessLayer\obj\Debug\c#dersleri_301.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.DataAccessLayer\obj\Debug\c#dersle.E45ED49B.Up2Date
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.DataAccessLayer\obj\Debug\c#dersleri_301.DataAccessLayer.dll
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.DataAccessLayer\obj\Debug\c#dersleri_301.DataAccessLayer.pdb
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.DataAccessLayer\obj\Debug\c_dersleri_301.DataAccessLayer.Migrations.mig1.resources
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.DataAccessLayer\obj\Debug\c#dersleri_301.DataAccessLayer.csproj.GenerateResource.cache

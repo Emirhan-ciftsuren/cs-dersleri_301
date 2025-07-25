@@ -1,0 +1,12 @@
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.EntityLayer\bin\Debug\c#dersleri_301.EntityLayer.dll.config
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.EntityLayer\bin\Debug\c#dersleri_301.EntityLayer.dll
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.EntityLayer\bin\Debug\c#dersleri_301.EntityLayer.pdb
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.EntityLayer\bin\Debug\EntityFramework.dll
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.EntityLayer\bin\Debug\EntityFramework.xml
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.EntityLayer\obj\Debug\c#dersleri_301.EntityLayer.csproj.AssemblyReference.cache
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.EntityLayer\obj\Debug\c#dersleri_301.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.EntityLayer\obj\Debug\c#dersle.5C763981.Up2Date
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.EntityLayer\obj\Debug\c#dersleri_301.EntityLayer.dll
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.EntityLayer\obj\Debug\c#dersleri_301.EntityLayer.pdb
