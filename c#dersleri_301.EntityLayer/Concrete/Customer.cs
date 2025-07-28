@@ -10,9 +10,11 @@ namespace c_dersleri_301.EntityLayer.Concrete
     {
         public int CustomerId { get; set; }
         public string CustomerName { get; set; }
+        public string CustomerSurname { get; set; }
         public string CustomerDistrict { get; set; }
         public string CustomerCity { get; set; }
         public List<Order> Orders { get; set; }
         public bool CustomerStatus { get; set; }
+        
     }
 }

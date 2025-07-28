@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace c_dersleri_301.PresentationLayer
 {
-    public partial class Form1 : Form
+    public partial class Frmcategory : Form
     {
-        public Form1()
+        public Frmcategory()
         {
             InitializeComponent();
         }
