@@ -41,28 +41,28 @@
             this.lblAvgCapacity = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lblTurkiyeCapacityAvg = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
+            this.lblCappadociaLocationCapacity = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.label13 = new System.Windows.Forms.Label();
+            this.lblLastCountryName = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
             this.lblAvgLocationPrice = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.label17 = new System.Windows.Forms.Label();
+            this.lblEnesYokusLocationCount = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.label19 = new System.Windows.Forms.Label();
+            this.lblMaxPriceLocation = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.label21 = new System.Windows.Forms.Label();
+            this.lblMaxCapacityLocation = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.label23 = new System.Windows.Forms.Label();
+            this.lblRomeGuideName = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -92,7 +92,7 @@
             // 
             this.lblLocationCount.AutoSize = true;
             this.lblLocationCount.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblLocationCount.Location = new System.Drawing.Point(117, 79);
+            this.lblLocationCount.Location = new System.Drawing.Point(117, 63);
             this.lblLocationCount.Name = "lblLocationCount";
             this.lblLocationCount.Size = new System.Drawing.Size(47, 37);
             this.lblLocationCount.TabIndex = 2;
@@ -123,7 +123,7 @@
             // 
             this.lblsumCapacity.AutoSize = true;
             this.lblsumCapacity.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblsumCapacity.Location = new System.Drawing.Point(117, 79);
+            this.lblsumCapacity.Location = new System.Drawing.Point(117, 63);
             this.lblsumCapacity.Name = "lblsumCapacity";
             this.lblsumCapacity.Size = new System.Drawing.Size(47, 37);
             this.lblsumCapacity.TabIndex = 2;
@@ -153,7 +153,7 @@
             // 
             this.lblGuideCount.AutoSize = true;
             this.lblGuideCount.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblGuideCount.Location = new System.Drawing.Point(117, 79);
+            this.lblGuideCount.Location = new System.Drawing.Point(117, 63);
             this.lblGuideCount.Name = "lblGuideCount";
             this.lblGuideCount.Size = new System.Drawing.Size(47, 37);
             this.lblGuideCount.TabIndex = 2;
@@ -183,7 +183,7 @@
             // 
             this.lblAvgCapacity.AutoSize = true;
             this.lblAvgCapacity.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblAvgCapacity.Location = new System.Drawing.Point(117, 79);
+            this.lblAvgCapacity.Location = new System.Drawing.Point(106, 63);
             this.lblAvgCapacity.Name = "lblAvgCapacity";
             this.lblAvgCapacity.Size = new System.Drawing.Size(47, 37);
             this.lblAvgCapacity.TabIndex = 2;
@@ -201,97 +201,98 @@
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.panel5.Controls.Add(this.label9);
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(205)))), ((int)(((byte)(218)))));
+            this.panel5.Controls.Add(this.lblTurkiyeCapacityAvg);
             this.panel5.Controls.Add(this.label10);
             this.panel5.Location = new System.Drawing.Point(956, 208);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(285, 159);
             this.panel5.TabIndex = 5;
             // 
-            // label9
+            // lblTurkiyeCapacityAvg
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label9.Location = new System.Drawing.Point(118, 79);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(47, 37);
-            this.label9.TabIndex = 2;
-            this.label9.Text = "00";
+            this.lblTurkiyeCapacityAvg.AutoSize = true;
+            this.lblTurkiyeCapacityAvg.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblTurkiyeCapacityAvg.Location = new System.Drawing.Point(118, 79);
+            this.lblTurkiyeCapacityAvg.Name = "lblTurkiyeCapacityAvg";
+            this.lblTurkiyeCapacityAvg.Size = new System.Drawing.Size(47, 37);
+            this.lblTurkiyeCapacityAvg.TabIndex = 2;
+            this.lblTurkiyeCapacityAvg.Text = "00";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label10.Location = new System.Drawing.Point(71, 22);
+            this.label10.Location = new System.Drawing.Point(33, 13);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(138, 24);
+            this.label10.Size = new System.Drawing.Size(217, 48);
             this.label10.TabIndex = 1;
-            this.label10.Text = "Lokasyon Sayısı";
+            this.label10.Text = "Türkiye Turları Ortalama \r\n              Kapasite";
             // 
             // panel6
             // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.panel6.Controls.Add(this.label11);
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(134)))), ((int)(((byte)(133)))));
+            this.panel6.Controls.Add(this.lblCappadociaLocationCapacity);
             this.panel6.Controls.Add(this.label12);
             this.panel6.Location = new System.Drawing.Point(651, 208);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(285, 159);
             this.panel6.TabIndex = 6;
             // 
-            // label11
+            // lblCappadociaLocationCapacity
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label11.Location = new System.Drawing.Point(117, 79);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(47, 37);
-            this.label11.TabIndex = 2;
-            this.label11.Text = "00";
+            this.lblCappadociaLocationCapacity.AutoSize = true;
+            this.lblCappadociaLocationCapacity.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblCappadociaLocationCapacity.Location = new System.Drawing.Point(118, 68);
+            this.lblCappadociaLocationCapacity.Name = "lblCappadociaLocationCapacity";
+            this.lblCappadociaLocationCapacity.Size = new System.Drawing.Size(47, 37);
+            this.lblCappadociaLocationCapacity.TabIndex = 2;
+            this.lblCappadociaLocationCapacity.Text = "00";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label12.Location = new System.Drawing.Point(71, 22);
+            this.label12.Location = new System.Drawing.Point(33, 22);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(138, 24);
+            this.label12.Size = new System.Drawing.Size(227, 24);
             this.label12.TabIndex = 1;
-            this.label12.Text = "Lokasyon Sayısı";
+            this.label12.Text = "Kapadokya Tur Kapasitesi,";
             // 
             // panel7
             // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.panel7.Controls.Add(this.label13);
+            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(106)))), ((int)(((byte)(135)))));
+            this.panel7.Controls.Add(this.lblLastCountryName);
             this.panel7.Controls.Add(this.label14);
+            this.panel7.ForeColor = System.Drawing.SystemColors.ControlText;
             this.panel7.Location = new System.Drawing.Point(341, 208);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(285, 159);
             this.panel7.TabIndex = 7;
             // 
-            // label13
+            // lblLastCountryName
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label13.Location = new System.Drawing.Point(117, 79);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(47, 37);
-            this.label13.TabIndex = 2;
-            this.label13.Text = "00";
+            this.lblLastCountryName.AutoSize = true;
+            this.lblLastCountryName.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblLastCountryName.Location = new System.Drawing.Point(63, 68);
+            this.lblLastCountryName.Name = "lblLastCountryName";
+            this.lblLastCountryName.Size = new System.Drawing.Size(47, 37);
+            this.lblLastCountryName.TabIndex = 2;
+            this.lblLastCountryName.Text = "00";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label14.Location = new System.Drawing.Point(71, 22);
+            this.label14.Location = new System.Drawing.Point(66, 22);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(138, 24);
+            this.label14.Size = new System.Drawing.Size(153, 24);
             this.label14.TabIndex = 1;
-            this.label14.Text = "Lokasyon Sayısı";
+            this.label14.Text = "Eklenen Son Ülke";
             // 
             // panel8
             // 
-            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(111)))), ((int)(((byte)(166)))));
             this.panel8.Controls.Add(this.lblAvgLocationPrice);
             this.panel8.Controls.Add(this.label16);
             this.panel8.Location = new System.Drawing.Point(29, 208);
@@ -321,123 +322,123 @@
             // 
             // panel9
             // 
-            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.panel9.Controls.Add(this.label17);
+            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(109)))), ((int)(((byte)(229)))));
+            this.panel9.Controls.Add(this.lblEnesYokusLocationCount);
             this.panel9.Controls.Add(this.label18);
             this.panel9.Location = new System.Drawing.Point(957, 394);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(285, 159);
             this.panel9.TabIndex = 9;
             // 
-            // label17
+            // lblEnesYokusLocationCount
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label17.Location = new System.Drawing.Point(117, 79);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(47, 37);
-            this.label17.TabIndex = 2;
-            this.label17.Text = "00";
+            this.lblEnesYokusLocationCount.AutoSize = true;
+            this.lblEnesYokusLocationCount.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblEnesYokusLocationCount.Location = new System.Drawing.Point(117, 67);
+            this.lblEnesYokusLocationCount.Name = "lblEnesYokusLocationCount";
+            this.lblEnesYokusLocationCount.Size = new System.Drawing.Size(47, 37);
+            this.lblEnesYokusLocationCount.TabIndex = 2;
+            this.lblEnesYokusLocationCount.Text = "00";
             // 
             // label18
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label18.Location = new System.Drawing.Point(71, 22);
+            this.label18.Location = new System.Drawing.Point(41, 22);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(138, 24);
+            this.label18.Size = new System.Drawing.Size(206, 24);
             this.label18.TabIndex = 1;
-            this.label18.Text = "Lokasyon Sayısı";
+            this.label18.Text = "Enesim Yokuş Tur Sayısı";
             // 
             // panel10
             // 
-            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.panel10.Controls.Add(this.label19);
+            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(106)))), ((int)(((byte)(135)))));
+            this.panel10.Controls.Add(this.lblMaxPriceLocation);
             this.panel10.Controls.Add(this.label20);
             this.panel10.Location = new System.Drawing.Point(652, 394);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(285, 159);
             this.panel10.TabIndex = 10;
             // 
-            // label19
+            // lblMaxPriceLocation
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label19.Location = new System.Drawing.Point(117, 79);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(47, 37);
-            this.label19.TabIndex = 2;
-            this.label19.Text = "00";
+            this.lblMaxPriceLocation.AutoSize = true;
+            this.lblMaxPriceLocation.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblMaxPriceLocation.Location = new System.Drawing.Point(81, 67);
+            this.lblMaxPriceLocation.Name = "lblMaxPriceLocation";
+            this.lblMaxPriceLocation.Size = new System.Drawing.Size(47, 37);
+            this.lblMaxPriceLocation.TabIndex = 2;
+            this.lblMaxPriceLocation.Text = "00";
             // 
             // label20
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label20.Location = new System.Drawing.Point(71, 22);
+            this.label20.Location = new System.Drawing.Point(84, 22);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(138, 24);
+            this.label20.Size = new System.Drawing.Size(119, 24);
             this.label20.TabIndex = 1;
-            this.label20.Text = "Lokasyon Sayısı";
+            this.label20.Text = "En Pahalı Tur";
             // 
             // panel11
             // 
-            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.panel11.Controls.Add(this.label21);
+            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(205)))), ((int)(((byte)(121)))));
+            this.panel11.Controls.Add(this.lblMaxCapacityLocation);
             this.panel11.Controls.Add(this.label22);
             this.panel11.Location = new System.Drawing.Point(342, 394);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(285, 159);
             this.panel11.TabIndex = 11;
             // 
-            // label21
+            // lblMaxCapacityLocation
             // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label21.Location = new System.Drawing.Point(117, 79);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(47, 37);
-            this.label21.TabIndex = 2;
-            this.label21.Text = "00";
+            this.lblMaxCapacityLocation.AutoSize = true;
+            this.lblMaxCapacityLocation.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblMaxCapacityLocation.Location = new System.Drawing.Point(79, 67);
+            this.lblMaxCapacityLocation.Name = "lblMaxCapacityLocation";
+            this.lblMaxCapacityLocation.Size = new System.Drawing.Size(47, 37);
+            this.lblMaxCapacityLocation.TabIndex = 2;
+            this.lblMaxCapacityLocation.Text = "00";
             // 
             // label22
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label22.Location = new System.Drawing.Point(71, 22);
+            this.label22.Location = new System.Drawing.Point(40, 22);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(138, 24);
+            this.label22.Size = new System.Drawing.Size(210, 24);
             this.label22.TabIndex = 1;
-            this.label22.Text = "Lokasyon Sayısı";
+            this.label22.Text = "En Yüksek Kapasiteli Tur";
             // 
             // panel12
             // 
-            this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.panel12.Controls.Add(this.label23);
+            this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(95)))), ((int)(((byte)(65)))));
+            this.panel12.Controls.Add(this.lblRomeGuideName);
             this.panel12.Controls.Add(this.label24);
             this.panel12.Location = new System.Drawing.Point(30, 394);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(285, 159);
             this.panel12.TabIndex = 8;
             // 
-            // label23
+            // lblRomeGuideName
             // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label23.Location = new System.Drawing.Point(117, 79);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(47, 37);
-            this.label23.TabIndex = 2;
-            this.label23.Text = "00";
+            this.lblRomeGuideName.AutoSize = true;
+            this.lblRomeGuideName.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblRomeGuideName.Location = new System.Drawing.Point(68, 67);
+            this.lblRomeGuideName.Name = "lblRomeGuideName";
+            this.lblRomeGuideName.Size = new System.Drawing.Size(47, 37);
+            this.lblRomeGuideName.TabIndex = 2;
+            this.lblRomeGuideName.Text = "00";
             // 
             // label24
             // 
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label24.Location = new System.Drawing.Point(71, 22);
+            this.label24.Location = new System.Drawing.Point(54, 22);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(138, 24);
+            this.label24.Size = new System.Drawing.Size(169, 24);
             this.label24.TabIndex = 1;
-            this.label24.Text = "Lokasyon Sayısı";
+            this.label24.Text = "Roma Gezi Rehberi";
             // 
             // Frmstatistic
             // 
@@ -503,28 +504,28 @@
         private System.Windows.Forms.Label lblAvgCapacity;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label lblTurkiyeCapacityAvg;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label lblCappadociaLocationCapacity;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label lblLastCountryName;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Label lblAvgLocationPrice;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label lblEnesYokusLocationCount;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label lblMaxPriceLocation;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label lblMaxCapacityLocation;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label lblRomeGuideName;
         private System.Windows.Forms.Label label24;
     }
 }
