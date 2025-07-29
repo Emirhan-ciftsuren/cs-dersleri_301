@@ -1,4 +1,5 @@
 ﻿using c_dersleri_301.BuisnessLayer.Abstract;
+using c_dersleri_301.DataAccessLayer.Abstract;
 using c_dersleri_301.EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
@@ -9,30 +10,40 @@ using System.Threading.Tasks;
 namespace c_dersleri_301.BuisnessLayer.Concrete
 {
     public class OrderManager : IOrderService
+
     {
+        private readonly IOrderDal _orderDal;
+
+        public OrderManager(IOrderDal orderDal)
+        {
+            _orderDal = orderDal;
+        }
+
         public Order GetById(int id)
         {
-            throw new NotImplementedException();
+           return _orderDal.GetById(id);
         }
 
         public void TDelete(Order entity)
         {
-            throw new NotImplementedException();
+            _orderDal.Delete(entity);
         }
 
         public List<Order> TGetAll()
         {
-            throw new NotImplementedException();
+         return _orderDal.GetAll();
         }
 
         public void TInsert(Order entity)
         {
-            throw new NotImplementedException();
+            _orderDal.Insert(entity);
         }
 
         public void TUpdate(Order entity)
         {
-            throw new NotImplementedException();
+            _orderDal.Update(entity);
         }
     }
+
+   
 }

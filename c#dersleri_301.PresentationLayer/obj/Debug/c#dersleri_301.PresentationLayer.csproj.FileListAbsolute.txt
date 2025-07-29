@@ -13,3 +13,12 @@ C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.PresentationLayer\obj\D
 C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.PresentationLayer\obj\Debug\c#dersle.EDE5A59C.Up2Date
 C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.PresentationLayer\obj\Debug\c#dersleri_301.PresentationLayer.exe
 C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.PresentationLayer\obj\Debug\c#dersleri_301.PresentationLayer.pdb
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.PresentationLayer\obj\Debug\c#dersleri_301.PresentationLayer.exe.config
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.PresentationLayer\bin\Debug\c#dersleri_301.BuisnessLayer.dll
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.PresentationLayer\bin\Debug\c#dersleri_301.DataAccessLayer.dll
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.PresentationLayer\bin\Debug\c#dersleri_301.EntityLayer.dll
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.PresentationLayer\bin\Debug\c#dersleri_301.BuisnessLayer.pdb
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.PresentationLayer\bin\Debug\c#dersleri_301.DataAccessLayer.pdb
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.PresentationLayer\bin\Debug\c#dersleri_301.DataAccessLayer.dll.config
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.PresentationLayer\bin\Debug\c#dersleri_301.EntityLayer.pdb
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.PresentationLayer\bin\Debug\c#dersleri_301.EntityLayer.dll.config

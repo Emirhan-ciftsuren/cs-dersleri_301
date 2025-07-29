@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace c_dersleri_301.BuisnessLayer.Concrete
 {
-    public class CategoryManager : ICategoryService
+    public class CategoryManager:ICategoryService
     {
         private readonly ICategoryDal _categoryDal;
 
@@ -22,6 +22,11 @@ namespace c_dersleri_301.BuisnessLayer.Concrete
         {
             return _categoryDal.GetById(id);
         }
+        public Category TGetById(int id)
+        {
+            return _categoryDal.GetById(id);
+        }
+
         public void TDelete(Category entity)
         {
            _categoryDal.Delete(entity);

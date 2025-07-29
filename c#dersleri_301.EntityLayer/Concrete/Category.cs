@@ -12,7 +12,7 @@ namespace c_dersleri_301.EntityLayer.Concrete
       public string CategoryName { get; set; }
         public int CategoryId { get; set; }
 
-        public bool CategpryStatus {  get; set; }
+        public bool CategoryStatus {  get; set; }
         public List<Product> Products { get; set; }
     }
 }

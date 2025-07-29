@@ -1,4 +1,6 @@
 ﻿using c_dersleri_301.BuisnessLayer.Abstract;
+using c_dersleri_301.DataAccessLayer.Abstract;
+using c_dersleri_301.DataAccessLayer.EntityFramework;
 using c_dersleri_301.EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
@@ -10,29 +12,30 @@ namespace c_dersleri_301.BuisnessLayer.Concrete
 {
     public class ProductManager : IProductService
     {
+        private readonly  IProductDal  _productDal;
         public Product GetById(int id)
         {
-            throw new NotImplementedException();
+            return _productDal.GetById(id);
         }
 
         public void TDelete(Product entity)
         {
-            throw new NotImplementedException();
+           _productDal.Delete(entity);
         }
 
         public List<Product> TGetAll()
         {
-            throw new NotImplementedException();
+           return _productDal.GetAll();
         }
 
         public void TInsert(Product entity)
         {
-            throw new NotImplementedException();
+            _productDal.Insert(entity);
         }
 
         public void TUpdate(Product entity)
         {
-            throw new NotImplementedException();
+            _productDal.Update(entity);
         }
     }
 }
