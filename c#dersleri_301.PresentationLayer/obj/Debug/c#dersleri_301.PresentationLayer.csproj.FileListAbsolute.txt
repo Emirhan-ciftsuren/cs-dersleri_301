@@ -22,3 +22,4 @@ C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.PresentationLayer\bin\D
 C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.PresentationLayer\bin\Debug\c#dersleri_301.DataAccessLayer.dll.config
 C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.PresentationLayer\bin\Debug\c#dersleri_301.EntityLayer.pdb
 C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.PresentationLayer\bin\Debug\c#dersleri_301.EntityLayer.dll.config
+C:\Users\asus\source\repos\c#dersleri_301\c#dersleri_301.PresentationLayer\obj\Debug\c_dersleri_301.PresentationLayer.FrmProduct.resources

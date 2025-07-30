@@ -16,7 +16,7 @@ namespace c_dersleri_301.PresentationLayer
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frmcategory());
+            Application.Run(new FrmProduct());
         }
     }
 }
