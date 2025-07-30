@@ -9,7 +9,7 @@ namespace c_dersleri_301.BuisnessLayer.Abstract
 {
     public interface ICategoryService:IGenericService<Category>
     {
-        void TDelete(Category deletedValues);
+         void TDelete(Category deletedValues);
         Category TGetById(int id);
     }
 }

@@ -9,5 +9,7 @@ namespace c_dersleri_301.BuisnessLayer.Abstract
 {
     public interface IProductService:IGenericService<Product>
     {
+       
+        List<object> TGetProductWithCategory();
     }
 }

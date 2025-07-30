@@ -43,5 +43,7 @@ namespace c_dersleri_301.BuisnessLayer.Concrete
         {
            _categoryDal.Update(entity);
         }
+
+   
     }
 }

@@ -13,6 +13,12 @@ namespace c_dersleri_301.BuisnessLayer.Concrete
     public class ProductManager : IProductService
     {
         private readonly  IProductDal  _productDal;
+
+        public ProductManager(IProductDal productDal)
+        {
+            _productDal = productDal;
+        }
+
         public Product GetById(int id)
         {
             return _productDal.GetById(id);
@@ -26,6 +32,11 @@ namespace c_dersleri_301.BuisnessLayer.Concrete
         public List<Product> TGetAll()
         {
            return _productDal.GetAll();
+        }
+
+        public List<object> TGetProductWithCategory()
+        {
+            return _productDal.GetProductWithCategory   ();
         }
 
         public void TInsert(Product entity)

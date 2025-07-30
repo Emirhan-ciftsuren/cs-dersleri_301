@@ -46,6 +46,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.cmbCategory = new System.Windows.Forms.ComboBox();
+            this.btnList2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,6 +58,7 @@
             this.btnAdd.TabIndex = 25;
             this.btnAdd.Text = "Ekle";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnDelete
             // 
@@ -66,6 +68,7 @@
             this.btnDelete.TabIndex = 24;
             this.btnDelete.Text = "Sil";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
             // 
@@ -75,6 +78,7 @@
             this.btnUpdate.TabIndex = 23;
             this.btnUpdate.Text = "Güncelle";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnGetById
             // 
@@ -103,22 +107,24 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(331, 12);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(867, 573);
+            this.dataGridView1.Size = new System.Drawing.Size(1030, 573);
             this.dataGridView1.TabIndex = 16;
             // 
             // btnList
             // 
             this.btnList.Location = new System.Drawing.Point(103, 361);
             this.btnList.Name = "btnList";
-            this.btnList.Size = new System.Drawing.Size(204, 38);
+            this.btnList.Size = new System.Drawing.Size(98, 38);
             this.btnList.TabIndex = 15;
             this.btnList.Text = "Listele";
             this.btnList.UseVisualStyleBackColor = true;
+            this.btnList.Click += new System.EventHandler(this.btnList_Click);
             // 
             // txtProductId
             // 
@@ -202,12 +208,23 @@
             this.cmbCategory.Size = new System.Drawing.Size(204, 24);
             this.cmbCategory.TabIndex = 33;
             // 
+            // btnList2
+            // 
+            this.btnList2.Location = new System.Drawing.Point(206, 361);
+            this.btnList2.Name = "btnList2";
+            this.btnList2.Size = new System.Drawing.Size(98, 38);
+            this.btnList2.TabIndex = 34;
+            this.btnList2.Text = "Listele2";
+            this.btnList2.UseVisualStyleBackColor = true;
+            this.btnList2.Click += new System.EventHandler(this.btnList2_Click);
+            // 
             // FrmProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(185)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1224, 623);
+            this.ClientSize = new System.Drawing.Size(1373, 623);
+            this.Controls.Add(this.btnList2);
             this.Controls.Add(this.cmbCategory);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txtDescription);
@@ -255,5 +272,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox cmbCategory;
+        private System.Windows.Forms.Button btnList2;
     }
 }

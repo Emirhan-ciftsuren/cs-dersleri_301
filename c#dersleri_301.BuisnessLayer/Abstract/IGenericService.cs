@@ -13,6 +13,6 @@ namespace c_dersleri_301.BuisnessLayer.Abstract
         void TUpdate(T entity);
         void TDelete(T entity);
         List<T> TGetAll();
-        T GetById(int id);
+       T GetById(int id);
     }
 }
